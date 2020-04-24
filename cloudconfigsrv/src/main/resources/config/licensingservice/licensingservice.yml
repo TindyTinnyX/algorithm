@@ -1,1 +1,7 @@
-example.property: "hello, world!"
+example:
+  property: "hello, test!"
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/license-service

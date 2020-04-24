@@ -1,0 +1,14 @@
+server:
+  port: 9001
+management:
+  endpoint:
+    beans:
+      enabled: true
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: '*'
+
+
+

@@ -20,7 +20,6 @@ zoo:
     max-retries: 2
     base-sleep-time-ms: 1000
 
-
 spring:
   redis:
     cluster:
@@ -30,3 +29,5 @@ spring:
     #      nodes: 127.0.0.1:6000, 127.0.0.1:6001, 127.0.0.1:6002
     #      master: mymaster
     password: 123
+server:
+  port: 9800

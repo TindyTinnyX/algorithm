@@ -12,8 +12,8 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
  */
 @SpringBootApplication
 @RefreshScope
-public class Application {
+public class LicenseApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(LicenseApplication.class, args);
     }
 }

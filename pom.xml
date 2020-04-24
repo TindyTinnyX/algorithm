@@ -5,6 +5,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>basic</module>
+        <module>common-entity</module>
+        <module>common-mongo</module>
+        <module>licensing-service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
